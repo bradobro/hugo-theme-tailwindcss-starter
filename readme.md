@@ -1,3 +1,5 @@
+Brad Forked from https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter
+
 # Hugo Starter Theme with Tailwind CSS
 
 Starter files for a Hugo theme with Tailwind CSS.
@@ -166,7 +168,7 @@ module.exports = {
     plugins: [
         require('postcss-import')({
             path: [themeDir]
-            }), 
+            }),
         require('tailwindcss')(themeDir + 'assets/css/tailwind.config.js'),
         require('autoprefixer')({
             path: [themeDir],
